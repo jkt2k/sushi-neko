@@ -10,7 +10,7 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
-    
+    var sushiBasePiece: SushiPiece!
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
